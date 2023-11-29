@@ -100,7 +100,6 @@ span{
 	font-size: 0.95rem;
 	font-weight: 700;
 	cursor: pointer;
-	color: white;
 }
 
 /**sixth box**/
@@ -324,10 +323,7 @@ ul a{
 	font-size: 14px;
 	color: rgb(70, 70, 70);
 	padding: 15px 25px;
-	justify-content: space-between;
-}
-.hdn-content a{
-	color: rgb(70, 70, 70);
+	justify-content: space-bettween;
 }
 .line{
 	border-top: 0.5px solid black;
@@ -378,7 +374,6 @@ ul a{
 }
 .triangle.active{
 	display: block;
-	margin-right: 50px;
 }
 
 
@@ -441,5 +436,25 @@ ul a{
 .stop-scroll{
 	overflow: hidden;
 	height: 100%;
+
+}
+.container{
+	background-color: #fff;
+	box-shadow: 4px 4px 30px rgba(0, 0, 0, 0.06);
+	margin-left: 44px;
+}
+.product{
+	width: 50px;
+	height: 150px;
+	display: flex;
+	cursor: pointer;
+	padding-bottom: 0px;
+	padding-top: 0px;
+}
+.product img{
+	height: 50px;
+	width: 50px;
+}
+.product p-details{
 
 }
